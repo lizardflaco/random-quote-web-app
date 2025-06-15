@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 2rem; text-align: center; }
+        #quote { font-size: 1.5rem; margin-bottom: 1rem; }
+        button { padding: 0.5rem 1rem; }
+    </style>
+</head>
+<body>
+    <div id="quote">Loading...</div>
+    <button id="new-quote">New Quote</button>
+
+    <script>
+        async function fetchQuote() {
+            const res = await fetch('/api/quote');
+            const data = await res.json();
+            document.getElementById('quote').textContent = data.quote;
+        }
+
+        document.getElementById('new-quote').addEventListener('click', fetchQuote);
+        fetchQuote();
+    </script>
+</body>
+</html>
