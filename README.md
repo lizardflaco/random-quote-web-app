@@ -1,3 +1,23 @@
 # random-quote-web-app
 
-This repository contains documentation and starter configuration for a simple web-based app. The long-term vision, dubbed **Quantum Lingua**, blends immersive language learning with metaphysical concepts and AI-driven features. See `APP_VISION.md` for details on the app concept as well as its privacy and security model based on the Sentinel Assistant Protocol.
+This project provides a minimal Node.js setup for a random quote web application.  It forms the starting point for **Quantum Lingua**, an initiative to blend immersive language learning with metaphysics and AI.  See `APP_VISION.md` for a deeper look at the long‑term vision and the Sentinel Assistant Protocol privacy model.
+
+## Setup
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm start
+   ```
+3. Run the test script:
+   ```bash
+   npm test
+   ```
+   (The current test command simply prints a placeholder message.)
+
+## License
+
+Released under the [MIT License](LICENSE).

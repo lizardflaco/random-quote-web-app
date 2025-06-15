@@ -2,6 +2,7 @@
   "name": "random-quote-web-app",
   "version": "0.1.0",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"No tests specified\""
   }
 }
