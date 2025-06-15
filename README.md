@@ -1,5 +1,3 @@
-# random-quote-web-app<<<<<<< HEAD
 # random-quote-web-app
-=======
-# random-quote-web-app
->>>>>>> 92ed8919cd9aea109119c8d4ef986d345201be68
+
+This repository contains documentation and starter configuration for a simple web-based app. The long-term vision, dubbed **Quantum Lingua**, blends immersive language learning with metaphysical concepts and AI-driven features. See `APP_VISION.md` for details on the app concept as well as its privacy and security model based on the Sentinel Assistant Protocol.
