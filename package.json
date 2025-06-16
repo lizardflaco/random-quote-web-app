@@ -2,6 +2,13 @@
   "name": "random-quote-web-app",
   "version": "0.1.0",
   "scripts": {
-    "test": "echo \"No tests specified\""
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "supertest": "^7.1.1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
